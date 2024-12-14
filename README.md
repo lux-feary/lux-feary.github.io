@@ -7,18 +7,20 @@ Just fork this repo to your own accout. Modify the repo name to `<username>.gith
 
 It's quite easy!
 
+Example: <https://lux-feary.github.io>
+
 
 ## Build your own jupyterlite
 
 1. Install miniconda 3
 
-  ```bash
+   ```bash
    mkdir -p ~/miniconda3 && \
     wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh 2>&1 | \
       awk 'BEGIN{t=0;l=""}systime()-t>1{print $0;t=systime()}/.+/{l=$0}END{print l}' && \
     bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3 && \
     rm ~/miniconda3/miniconda.sh
-  ```
+   ```
 
 2. create xeus-lite-wasm env
 
