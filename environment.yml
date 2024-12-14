@@ -1,0 +1,22 @@
+name: xeus-lite-wasm
+channels:
+  - https://repo.mamba.pm/emscripten-forge
+  - conda-forge
+dependencies:
+  - xeus-cpp                            # C++17, C++20
+  - xeus-python                         # Python 3.11 (XPython)
+  - xeus-lua                            # Lua (XLua)
+  - xeus-sqlite                         # xsqlite
+  - pandas
+  - matplotlib
+  - numpy
+  - pip
+  - pip:
+    - jupyterlite_xeus                  # The xeus framework for jupyterlite
+    - jupyterlite_xeus_sqlite           # SQLite
+    - jupyterlite_xeus_lua              # Lua
+    - jupyterlite_pyodide_kernel        # Python (Pyodide)
+    - jupyterlite_javascript_kernel     # JavaScript (Web Worker)
+    - jupyterlite_p5_kernel             # p5.js
+    - requests
+# xeus framework can't install packages in runtime. add dependencies here!
