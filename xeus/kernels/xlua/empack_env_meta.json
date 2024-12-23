@@ -44,6 +44,13 @@
             "filename": "jupyterlite_xeus_sqlite-0.2.1-pip.tar.gz"
         },
         {
+            "name": "matplotlib-base",
+            "version": "3.9.4",
+            "build": "np125py311h6c65441_0",
+            "filename_stem": "matplotlib-base-3.9.4-np125py311h6c65441_0",
+            "filename": "matplotlib-base-3.9.4-np125py311h6c65441_0.tar.gz"
+        },
+        {
             "name": "fonttools",
             "version": "4.39.4",
             "build": "py311he9a3d86_0",
@@ -70,6 +77,13 @@
             "build": "pyhd8ed1ab_1004",
             "filename_stem": "pickleshare-0.7.5-pyhd8ed1ab_1004",
             "filename": "pickleshare-0.7.5-pyhd8ed1ab_1004.tar.gz"
+        },
+        {
+            "name": "certifi",
+            "version": "2024.12.14",
+            "build": "pip",
+            "filename_stem": "certifi-2024.12.14-pip",
+            "filename": "certifi-2024.12.14-pip.tar.gz"
         },
         {
             "name": "stack_data",
@@ -156,20 +170,6 @@
             "filename": "emscripten-abi-3.1.45-h267e887_30.tar.gz"
         },
         {
-            "name": "urllib3",
-            "version": "2.2.2",
-            "build": "pyhd8ed1ab_0",
-            "filename_stem": "urllib3-2.2.2-pyhd8ed1ab_0",
-            "filename": "urllib3-2.2.2-pyhd8ed1ab_0.tar.gz"
-        },
-        {
-            "name": "brotli-python",
-            "version": "1.1.0",
-            "build": "py311hc20c878_0",
-            "filename_stem": "brotli-python-1.1.0-py311hc20c878_0",
-            "filename": "brotli-python-1.1.0-py311hc20c878_0.tar.gz"
-        },
-        {
             "name": "python-tzdata",
             "version": "2024.2",
             "build": "pyhd8ed1ab_1",
@@ -177,11 +177,11 @@
             "filename": "python-tzdata-2024.2-pyhd8ed1ab_1.tar.gz"
         },
         {
-            "name": "charset-normalizer",
-            "version": "3.4.0",
-            "build": "pyhd8ed1ab_1",
-            "filename_stem": "charset-normalizer-3.4.0-pyhd8ed1ab_1",
-            "filename": "charset-normalizer-3.4.0-pyhd8ed1ab_1.tar.gz"
+            "name": "jupyterlite_pyodide_kernel",
+            "version": "0.4.6",
+            "build": "pip",
+            "filename_stem": "jupyterlite_pyodide_kernel-0.4.6-pip",
+            "filename": "jupyterlite_pyodide_kernel-0.4.6-pip.tar.gz"
         },
         {
             "name": "jupyterlite_xeus",
@@ -189,13 +189,6 @@
             "build": "pip",
             "filename_stem": "jupyterlite_xeus-2.1.2-pip",
             "filename": "jupyterlite_xeus-2.1.2-pip.tar.gz"
-        },
-        {
-            "name": "matplotlib-base",
-            "version": "3.9.3",
-            "build": "np125py311h6c65441_0",
-            "filename_stem": "matplotlib-base-3.9.3-np125py311h6c65441_0",
-            "filename": "matplotlib-base-3.9.3-np125py311h6c65441_0.tar.gz"
         },
         {
             "name": "pyjs",
@@ -219,46 +212,11 @@
             "filename": "python-3.11.3-h_bbba66e_25_cpython.tar.gz"
         },
         {
-            "name": "requests",
-            "version": "2.32.3",
-            "build": "pyhd8ed1ab_1",
-            "filename_stem": "requests-2.32.3-pyhd8ed1ab_1",
-            "filename": "requests-2.32.3-pyhd8ed1ab_1.tar.gz"
-        },
-        {
-            "name": "idna",
-            "version": "3.10",
-            "build": "pyhd8ed1ab_1",
-            "filename_stem": "idna-3.10-pyhd8ed1ab_1",
-            "filename": "idna-3.10-pyhd8ed1ab_1.tar.gz"
-        },
-        {
             "name": "jupyterlite_xeus_lua",
             "version": "0.3.3",
             "build": "pip",
             "filename_stem": "jupyterlite_xeus_lua-0.3.3-pip",
             "filename": "jupyterlite_xeus_lua-0.3.3-pip.tar.gz"
-        },
-        {
-            "name": "matplotlib",
-            "version": "3.9.3",
-            "build": "py311h2daa4dc_0",
-            "filename_stem": "matplotlib-3.9.3-py311h2daa4dc_0",
-            "filename": "matplotlib-3.9.3-py311h2daa4dc_0.tar.gz"
-        },
-        {
-            "name": "pysocks",
-            "version": "1.7.1",
-            "build": "py311had7285e_0",
-            "filename_stem": "pysocks-1.7.1-py311had7285e_0",
-            "filename": "pysocks-1.7.1-py311had7285e_0.tar.gz"
-        },
-        {
-            "name": "jupyterlite_pyodide_kernel",
-            "version": "0.4.5",
-            "build": "pip",
-            "filename_stem": "jupyterlite_pyodide_kernel-0.4.5-pip",
-            "filename": "jupyterlite_pyodide_kernel-0.4.5-pip.tar.gz"
         },
         {
             "name": "ptyprocess",
@@ -289,11 +247,11 @@
             "filename": "pytz-2024.2-pyhd8ed1ab_1.tar.gz"
         },
         {
-            "name": "pip",
-            "version": "24.3.1",
-            "build": "pyh8b19718_0",
-            "filename_stem": "pip-24.3.1-pyh8b19718_0",
-            "filename": "pip-24.3.1-pyh8b19718_0.tar.gz"
+            "name": "chardet",
+            "version": "5.2.0",
+            "build": "pip",
+            "filename_stem": "chardet-5.2.0-pip",
+            "filename": "chardet-5.2.0-pip.tar.gz"
         },
         {
             "name": "backcall",
@@ -303,18 +261,18 @@
             "filename": "backcall-0.2.0-pyh9f0ad1d_0.tar.gz"
         },
         {
-            "name": "certifi",
-            "version": "2024.8.30",
-            "build": "pyhd8ed1ab_0",
-            "filename_stem": "certifi-2024.8.30-pyhd8ed1ab_0",
-            "filename": "certifi-2024.8.30-pyhd8ed1ab_0.tar.gz"
-        },
-        {
             "name": "pexpect",
             "version": "4.9.0",
             "build": "pyhd8ed1ab_1",
             "filename_stem": "pexpect-4.9.0-pyhd8ed1ab_1",
             "filename": "pexpect-4.9.0-pyhd8ed1ab_1.tar.gz"
+        },
+        {
+            "name": "pip",
+            "version": "24.3.1",
+            "build": "pyh8b19718_2",
+            "filename_stem": "pip-24.3.1-pyh8b19718_2",
+            "filename": "pip-24.3.1-pyh8b19718_2.tar.gz"
         },
         {
             "name": "xeus-python",
@@ -359,11 +317,25 @@
             "filename": "jupyterlite_p5_kernel-0.1.1-pip.tar.gz"
         },
         {
+            "name": "requests",
+            "version": "2.32.3",
+            "build": "pip",
+            "filename_stem": "requests-2.32.3-pip",
+            "filename": "requests-2.32.3-pip.tar.gz"
+        },
+        {
             "name": "xeus-sqlite",
             "version": "0.6.2",
             "build": "h5c9267c_4",
             "filename_stem": "xeus-sqlite-0.6.2-h5c9267c_4",
             "filename": "xeus-sqlite-0.6.2-h5c9267c_4.tar.gz"
+        },
+        {
+            "name": "urllib3",
+            "version": "2.2.3",
+            "build": "pip",
+            "filename_stem": "urllib3-2.2.3-pip",
+            "filename": "urllib3-2.2.3-pip.tar.gz"
         },
         {
             "name": "executing",
@@ -380,6 +352,13 @@
             "filename": "xeus-lua-0.7.4-he62be5e_0.tar.gz"
         },
         {
+            "name": "matplotlib",
+            "version": "3.9.4",
+            "build": "py311h1d374b6_0",
+            "filename_stem": "matplotlib-3.9.4-py311h1d374b6_0",
+            "filename": "matplotlib-3.9.4-py311h1d374b6_0.tar.gz"
+        },
+        {
             "name": "asttokens",
             "version": "3.0.0",
             "build": "pyhd8ed1ab_1",
@@ -392,6 +371,13 @@
             "build": "py311h1bb38f8_1",
             "filename_stem": "pillow-10.3.0-py311h1bb38f8_1",
             "filename": "pillow-10.3.0-py311h1bb38f8_1.tar.gz"
+        },
+        {
+            "name": "idna",
+            "version": "3.10",
+            "build": "pip",
+            "filename_stem": "idna-3.10-pip",
+            "filename": "idna-3.10-pip.tar.gz"
         },
         {
             "name": "pygments",

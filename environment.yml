@@ -19,4 +19,8 @@ dependencies:
     - jupyterlite_javascript_kernel     # JavaScript (Web Worker)
     - jupyterlite_p5_kernel             # p5.js
     - requests
+    - urllib3
+    - certifi
+    - chardet
+    - idna
 # xeus framework can't install packages in runtime. add dependencies here!
